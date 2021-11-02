@@ -35,3 +35,29 @@ to see difference between your branch and another branch
 
 
 
+## Branching and Merging
+
+`$ git branch`
+to see what branch were on
+
+`$ git checkout -b name_of_branch`
+to create a new branch (make it descriptive e.g. feature-read-me-instructions)
+
+`$ git checkout main`
+to go back to the main branch
+
+
+when merging you COULD 
+`$ git branch main`
+`$ git merge name_of_branch`
+
+BUT the more common pattern is to:
+- push the changes on the branch to github 
+- make a Pull Request (PR) using the GUI. 
+- pull the updated main onto your local machine
+- delete the branch that was merged using `$ git branch -d name_of_branch`
+
+
+
+
+
