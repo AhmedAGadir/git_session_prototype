@@ -3,3 +3,20 @@ creates a .git folder
 
 `$ ls -la`
 to see all files and folders (including hidden) 
+
+====================================
+
+`$ git add`
+`$ git commit -m "commit title" -m "commit description"`
+
+====================================
+
+
+`$ git branch -M main`
+
+`$ git remote add origin https://github.com/AhmedAGadir/git_session_prototype.git`
+allows us to connect to a remote location online
+
+`$ git push -u origin main`
+- u stands for upstream and it just sets up a shortcut for `git push`
+
