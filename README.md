@@ -57,6 +57,34 @@ BUT the more common pattern is to:
 - pull the updated main onto your local machine
 - delete the branch that was merged using `$ git branch -d name_of_branch`
 
+ ### Merge conflicts
+
+- merge the main version locally into your branch
+- solve merge conflicts in your text editor 
+- push to github and make a PR 
+- switch to main branch, pull, delete temporary branch
+
+
+
+## Revert 
+
+`$ git reset`
+`$ git reset name_of_file_to_unstage`
+to undo `git add`
+
+`$ git reset HEAD~1`
+to go back 1 commit 
+
+`$ git log` 
+and then copy the commit 
+`$ git reset HASH_OF_COMMIT`
+`$ git reset --hard HASH_OF_COMMIT`
+to revert back further than one commit
+
+
+
+## Forking
+fork github repos online so that you can be free to do your own thing
 
 
 
