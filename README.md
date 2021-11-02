@@ -1,4 +1,4 @@
-# Git tutorial yoooo
+# Git and Github tutorial for the team
 
 ## Setting up 
 
@@ -20,7 +20,7 @@ this is only local
 allows us to connect to a remote location online
 
 `$ git push -u origin main`
-- u stands for upstream and it just sets up a shortcut for `git push`
+-u stands for upstream and it just sets up a shortcut for `git push`
 
 
 
