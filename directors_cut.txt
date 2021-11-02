@@ -1,0 +1,94 @@
+
+
+==== WHAT IS GIT AND GITHUB ====
+
+- get everyone to clone the repo
+
+- explain the .git folder and the difference between git and github
+
+
+==== BASIC BRANCH AND MERGING =======
+
+explain what a branch is and why you might use one
+
+git checkout -b feature-more-html
+
+git branch
+
++ <p>world</p>
+
+git diff
+
+git add .
+git commit -m 'added world'
+
+git diff main (you can see the changes)
+
+git push (explain)
+
+then go to github and finish the pull request
+
+come back and delete the 
+
+git checkout main
+git branch -d feature-more-html
+
+
+==== MERGE CONFLICTS ====
+
+git checkout -b feature-making-a-conflict
+
++ line 3: <p>the weather is great today</p>
+
+git commit -am "spoke about the great weather"
+git push
+
+git checkout main
+
++ line 3: <p>the weather is absolute garbage today</p>
+
+git commit -am "spoke about the garbage weather"
+git push
+
+git branch
+git diff feature-making-a-conflict
+
+speak about how you want to merge main into your branch before your pull request. 
+as you work on bugs, features, its likely that the repos changed, so you want to make your pull request up to date when you do it.
+
+git checkout feature-making-a-conflict
+git merge main
+
+solve the merge conflict on the IDE
+
+git commit -am "fixed weather merge conflict"
+git push
+
+finish the pull request on github
+
+switch into main branch and delete the branch we no longer need
+
+# reset
+
+
+show how to reset 
+- git add .
+- git commit 
+
+git log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
