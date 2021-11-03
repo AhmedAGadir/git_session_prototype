@@ -1,5 +1,4 @@
-# Git and Github tutorial for the team
-
+# AG Grid Support Sessions - Git and Github tutorial
 ## Setting up 
 
 
